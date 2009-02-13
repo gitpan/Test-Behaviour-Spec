@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Test-Behaviour-Spec
-version:            0.01
+version:            0.02
 abstract:           Interiors of tests for the Behaviour Driven Developments.
 author:
     - MIZUTANI Tociyuki <tociyuki@gmail.com>

@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Exporter;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @EXPORT = qw(describe it spec);
 our @ISA = qw(Exporter);
@@ -31,7 +31,7 @@ Test::Behaviour::Spec - Interiors of tests for the Behaviour Driven Developments
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
@@ -48,7 +48,7 @@ Version 0.01
     }
     
     {
-        describe '$counter, when counting up,'
+        describe '$counter, when counting up,';
             my $counter = Counter->new;
         
         it 'should has a initial value zero.';
